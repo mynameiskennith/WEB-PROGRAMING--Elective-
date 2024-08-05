@@ -1,0 +1,19 @@
+Form
+- It is a container of html tag widgets
+- syntax => <form action="url">
+                ...
+                form elements
+                ...
+            </form>
+- action attribute executes the action i.e to be executed
+on submitting a form
+
+- POST
+- secure method
+- No limit
+- Data not shownn in url
+
+- GET
+- unsecure method
+- sending data along with the query string
+- length of URL is limited. (3000 charecters)

@@ -1,0 +1,6 @@
+CEll SPACING
+ - Specify the space between content of cell and 
+ the inner wall of the cell.
+
+CELL PADDING
+- Spcify the padding inside each cell
