@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+</head>
+<body>
+    <!-- default size of input is 20 
+         maxlength => limits the number of charecters that can be entered
+         hidden => hold value without user knowing-->
+    <table border="1" cellpadding="10">
+        <tr>
+            <td>Name    </td>
+            <td><input size="10" type="text" name="fname" id="fname" maxlength="10"></td>
+        </tr>
+        <tr>
+            <td>Hidden</td>
+            <td><input type="hidden"></td>
+        </tr>
+        <tr>
+            <form action="">
+                <td>Checkbox</td>
+                <td>
+                    <input type="checkbox" name="Hobbies" value="tv" checked="checked">
+                    tv
+                    <br>
+                    <input type="checkbox" name="Hobbies" value="gardening">
+                    gardening
+                </td>
+            </form>
+        </tr>
+    </table>
+</body>
+</html>
