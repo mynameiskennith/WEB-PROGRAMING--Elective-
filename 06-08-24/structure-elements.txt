@@ -1,0 +1,6 @@
+semantic elements
+- clearly describes to the browser and developer
+- eg: <nav>
+Non semantic
+- Tells nothing about the content
+- eg: <div>,<span>
