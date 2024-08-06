@@ -8,8 +8,9 @@
 <body>
     <!-- default size of input is 20 
          maxlength => limits the number of charecters that can be entered
-         hidden => hold value without user knowing-->
-    <table border="1" cellpadding="10">
+         hidden => hold value without user knowing
+    -->
+    <table border="1" cellpadding="10" cellspacing="0">
         <tr>
             <td>Name    </td>
             <td><input size="10" type="text" name="fname" id="fname" maxlength="10"></td>
@@ -67,14 +68,49 @@
             <td>Text Area</td>
             <td>Adress : <textarea name="message" rows="10" cols="15" wrap="soft" id="">Enter your message here!</textarea></td>
         </tr>
-        
+        <tr>
+            <td>Email</td>
+            <td><input type="email"/></td>
+        </tr>
         <tr>
             <td>Button</td>
-            <td><input type="button" name="button" value="My Button"></td>
+            <td><input type="button" name="button" value="My Button"/></td>
         </tr>
         <tr>
             <td>Color</td>
-            <td><input type="color"></td>
+            <td><input type="color"/></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td><input type="date"/></td>
+        </tr>
+        <tr>
+            <td>Date Time</td>
+            <td><input type="datetime-local"/></td>
+        </tr>
+        <tr>
+            <td>Telephone</td>
+            <td><input type="tel" autofocus></td>
+        </tr>
+        <tr>
+            <td>URL</td>
+            <td><input type="url"></td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td><input type="time"></td>
+        </tr>
+        <tr>
+            <td>File</td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td>Week</td>
+            <td><input type="week"></td>
+        </tr>
+        <tr>
+            <td>Range</td>
+            <td><input type="range"></td>
         </tr>
         <tr>
             <td>
@@ -83,9 +119,14 @@
             </td>
             <td>
                 <input type="submit" name="submit" value="Submit Form"/>
-                <input type="reset" name="reset" value="Reset Form">
+                <input type="reset" name="reset" value="Reset Form"/>
             </td>
         </tr>
+        <!-- 
+        telephone
+        url
+        time
+        -->
     </form>
     </table>
 </body>
