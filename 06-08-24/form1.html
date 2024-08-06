@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+</head>
+<body>
+    <!-- default size of input is 20 
+         maxlength => limits the number of charecters that can be entered
+         hidden => hold value without user knowing-->
+    <table border="1" cellpadding="10">
+        <tr>
+            <td>Name    </td>
+            <td><input size="10" type="text" name="fname" id="fname" maxlength="10"></td>
+        </tr>
+        <tr>
+            <td>Hidden</td>
+            <td><input type="hidden"></td>
+        </tr>
+        <form action="">
+        <tr>
+            
+                <td>Checkbox</td>
+                <td>
+                    <!-- The name attribute of input tag must be same for 
+                     the same type of inputs such as radio button and checklist -->
+                    <input type="checkbox" name="Hobbies" value="tv" checked="checked">
+                    tv
+                    <br>
+                    <input type="checkbox" name="Hobbies" value="gardening">
+                    gardening
+                    <br><br>
+        </tr>
+        <tr>
+                <td>
+
+                </td>
+                <td>
+                    <label for="">
+                        <input type="radio" name="Gender" value="male" checked="checked">
+                    Male
+                    </label>
+                    <br>
+                    <input type="radio" name="Gender" value="female">
+                    Female
+                    <br>
+                </td>
+        </tr>
+        <tr>
+            <td>Select</td>
+            <td>
+                <select name="groceries" size="5" multiple>
+                    <option value="">Milk</option>
+                    <option value="">Curd</option>
+                    <option value="">Butter</option>
+                    <option value="">Milk</option>
+                    <option value="">Curd</option>
+                    <option value="">Butter</option>
+                    <option value="">Milk</option>
+                    <option value="">Curd</option>
+                    <option value="">Butter</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Text Area</td>
+            <td><textarea name="message" rows="5" cols="50" id="">Enter your message here!</textarea></td>
+        </tr>
+    </form>
+    </table>
+</body>
+</html>
