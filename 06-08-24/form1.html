@@ -19,7 +19,7 @@
             <td>Hidden</td>
             <td><input type="hidden"></td>
         </tr>
-        <form action="">
+        <form action="" autocomplete="on">
         <tr>
             
                 <td>Checkbox</td>
@@ -70,7 +70,7 @@
         </tr>
         <tr>
             <td>Email</td>
-            <td><input type="email"/></td>
+            <td><input type="email" placeholder="email"/></td>
         </tr>
         <tr>
             <td>Button</td>
@@ -78,7 +78,7 @@
         </tr>
         <tr>
             <td>Color</td>
-            <td><input type="color"/></td>
+            <td><input required type="color"/></td>
         </tr>
         <tr>
             <td>Date</td>
@@ -90,7 +90,7 @@
         </tr>
         <tr>
             <td>Telephone</td>
-            <td><input type="tel" autofocus></td>
+            <td><input required type="tel" autofocus></td>
         </tr>
         <tr>
             <td>URL</td>
@@ -98,7 +98,7 @@
         </tr>
         <tr>
             <td>Time</td>
-            <td><input type="time"></td>
+            <td><input required type="time"></td>
         </tr>
         <tr>
             <td>File</td>
@@ -111,6 +111,10 @@
         <tr>
             <td>Range</td>
             <td><input type="range"></td>
+        </tr>
+        <tr>
+            <td>Placeholder</td>
+            <td><input type="text" placeholder="This is a placeholder text"/></td>
         </tr>
         <tr>
             <td>
@@ -129,5 +133,9 @@
         -->
     </form>
     </table>
+    <!-- 
+        color => Hexadecimal code
+        date => yyyy-mm-dd
+    -->
 </body>
 </html>
