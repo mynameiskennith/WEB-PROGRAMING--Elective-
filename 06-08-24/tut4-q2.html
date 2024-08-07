@@ -6,54 +6,50 @@
     <title>tut4</title>
 </head>
 <body>
-    <table border="1">
-        <form action="">
-            <tr>
-                <td>
-                    <label for="">Firstname: <input type="text"> </label>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="">Middlename: <input type="text"> </label>
-                </td>
-            </tr>
-            <tr>
-                <label for="">Lastname: <input type="text"> </label>
-            </tr>
-            <tr>
-                <label for="">Course: 
-                    <select name="Course" id="" value="Course">
-                        <option value="CSE">CSE</option>
-                        <option value="EEE">EEE</option>
-                        <option value="ECS">ECS</option>
-                    </select>
-                </label>
-            </tr>
-            <tr>
-                <label for="">Gender: <input type="text"> </label>
-            </tr>
-            <tr>
-                <label for="">Phone: <input type="text"> <input type="text"> </label>
-            </tr>
-            <tr>
-                <label for="">Address: <br> 
-                    <textarea name="address" id="" cols="40" rows="5"></textarea> 
-                </label>
-            </tr>
-            <tr>
-                <label for="">Email: <input type="email"> </label>
-            </tr>
-            <tr>
-                <label for="">Password: <input type="password"> </label>
-            </tr>
-            <tr>
-                <label for="">Re-type password: <input type="password"> </label>
-            </tr>
-            <tr>
-                <input type="submit"/>
-            </tr>
-        </form>
-    </table>
+    <form action="">
+        <label for="">Firstname: <input type="text"/></label><br><br>
+        <label for="">Middlename: <input type="text"/></label><br><br>
+        <label for="">Lastname: <input type="text"/></label><br><br>
+        
+        <label for="">Course: </label>
+        <select >
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="MBA">MBA</option>
+            <option value="MCA">MCA</option>
+            <option value="M.Tech">M.Tech</option>
+        </select><br><br>
+
+        <label for="">Gender: </label><br>
+        <label for="">
+            <input type="radio" name="Gender" value="Male"> Male
+        </label><br>
+        <label for="">
+            <input type="radio" name="Gender" value="Female"> Female
+        </label><br>
+        <label for="">
+            <input type="radio" name="Gender" value="Others"> Others
+        </label><br>
+
+        <label for="">Phone : 
+            <input type="text" size="2" value="+91"/> 
+            <input type="tel" size="15"> 
+        </label><br><br>
+
+        <label for="">
+            Adress <br>
+            <textarea name="text" id="textarea" cols="50" rows="5"></textarea>
+        </label><br><br>
+
+        <label for="">Email: <input type="email"></label><br><br>
+
+        <label for="">Password: <input type="password"></label><br><br>
+
+        <label for="">Re-type password: <input type="password"></label><br><br>
+
+        <input type="submit">
+
+    </form>
 </body>
 </html>
