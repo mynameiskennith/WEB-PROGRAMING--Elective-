@@ -7,7 +7,7 @@ algorithm called audio codec.
 - CODEC = coder-decoder/ encodes or decodes a data stream
 
 Multimedia Audio Tag formats
-- Ogg-
+- Ogg- a
 
 MIME
 - internet standard that specifies the 
@@ -15,3 +15,14 @@ MIME
 server. - MIME
 - syntax: type/subtype
 - eg: image/gif, text/plain
+
+<audio attributes>
+<source src="filename">
+<source src="filename">
+Your browser does not support
+</audio>
+
+control - start, stop, 
+
+addTextTrack
+canPlayType
