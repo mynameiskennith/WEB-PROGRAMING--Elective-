@@ -1,2 +1,17 @@
 <audio> 
 - integrate audio
+
+COdec
+- audio information is coded into digital atream with encoded
+algorithm called audio codec.
+- CODEC = coder-decoder/ encodes or decodes a data stream
+
+Multimedia Audio Tag formats
+- Ogg-
+
+MIME
+- internet standard that specifies the 
+- the browser needs a format for the data ie is recieved from the
+server. - MIME
+- syntax: type/subtype
+- eg: image/gif, text/plain
