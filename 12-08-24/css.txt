@@ -34,3 +34,7 @@ External Style:
 HTML Standart color set
 - 16 primary colors.
 - use either name or hex values.
+
+
+Style may be defined byy the user, author or a user agent.
+Style defined by AUthor has more precedence than from the user or user agent.
