@@ -1,0 +1,21 @@
+Types of css
+
+1. Inline Stylesheet
+    - added with the HTML Tag
+
+2. Embedded Stylesheet
+    - the set of style properties embedded within a HTML document
+
+3. External Stylesheet
+    - Common set of style properties given using an external .css file.
+
+
+Common Format for style rule:
+    Selector{property1:value1;property2:value2;....}
+    h1{font-size:12pt;color:red}
+
+
+Precedence:
+    Inline> Embedded> External> Browser default
+
+
