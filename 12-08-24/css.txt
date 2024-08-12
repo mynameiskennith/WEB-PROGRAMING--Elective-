@@ -23,9 +23,12 @@ Inline Style:
     Style="property0:value0;property1:value1"
 
 Embedded Style:
-    
+
 
 External Style:
     <link href=URL rel="relation_type" type="link_type">
 
 
+HTML Standart color set
+- 16 primary colors.
+- use either name or hex values.
