@@ -8,6 +8,8 @@ Types of css
 
 3. External Stylesheet
     - Common set of style properties given using an external .css file.
+    - Multiple webpages style can be changed by changing in a single css file.
+     this is also called as skinning.
 
 
 Common Format for style rule:

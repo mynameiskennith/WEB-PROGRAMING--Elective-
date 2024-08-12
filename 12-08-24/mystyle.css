@@ -1,0 +1,21 @@
+h1{
+    font-family: sans-serif;
+    color: orange;
+}
+
+b{
+    color: brown;
+}
+
+p{
+    font-weight: lighter;
+}
+
+li{
+    font-size: 10pt;
+    color: blueviolet;
+}
+
+body{
+    background-color: brown;
+}
