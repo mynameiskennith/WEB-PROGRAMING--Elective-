@@ -19,3 +19,13 @@ Precedence:
     Inline> Embedded> External> Browser default
 
 
+Inline Style:
+    Style="property0:value0;property1:value1"
+
+Embedded Style:
+    
+
+External Style:
+    <link href=URL rel="relation_type" type="link_type">
+
+
