@@ -10,4 +10,6 @@ which apply to all occurance of all named element.
 - Contextual Selector - more than one tags
 
 Class Selector
-- Used to allow different occurance of the 
+- Used to allow different occurance of the same tag to use different
+style specification.
+- <element class=""></element>
