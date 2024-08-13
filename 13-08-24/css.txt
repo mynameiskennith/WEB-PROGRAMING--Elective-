@@ -17,3 +17,7 @@ style specification.
 Generic Selector
 - If you want to apply more than one kind of a tag.
 - A generic class must be named and name must be given with a period at beggining
+
+Id Selector
+- Adds application of a style to one specific element.
+- #id_name{ values: value}
