@@ -36,3 +36,21 @@ Pseudo Class
 }
 - Two psudo classes are supported for the 
 - link,visited,hover,active
+
+CSS Properties
+- 5 common property category
+1. List
+2. Border
+3. Text
+4. color
+5. font
+
+-    CSS property values are not just text but also in URL, Number, Length, Keyword, % values
+-   If numberr - +ve and -ve
+-   There are also predefined keyord properties also
+-   Length in the form of px, pt, pc(picas - 12pt), in, cm, mm, no space between number and unit name
+-   font-size : 85% increase in size than the previous size
+- url(protocol://server/pathname)
+- color - rgb,hexa value, 0-256 rgb value
+- text-transform => upper,lowercase,capitalize,none
+- text-decoration => none,underline,line-through,overline
