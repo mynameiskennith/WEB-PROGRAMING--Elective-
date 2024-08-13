@@ -21,3 +21,18 @@ Generic Selector
 Id Selector
 - Adds application of a style to one specific element.
 - #id_name{ values: value}
+
+Universal Selecter
+- It applies to all elements.
+- *{color:value}
+
+Pseudo Class
+- special state of an elelment
+- selector: pseudo-class{
+    property:value;
+}
+- div:hover{
+
+}
+- Two psudo classes are supported for the 
+- link,visited,hover,active
