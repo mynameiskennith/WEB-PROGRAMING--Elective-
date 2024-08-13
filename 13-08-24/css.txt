@@ -1,0 +1,10 @@
+CSS Selector
+- used to find the html elements that you want to style.
+- whichever html tag you
+- Simple, Generic, Id, Class, Universal, Pseduo
+
+Simple Selector
+- List of style rules and property values in the rule, 
+which apply to all occurance of all named element.
+- eg: h1,h3{font-size:23px;}
+- Contextual Selector - 
