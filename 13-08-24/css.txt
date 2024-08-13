@@ -13,3 +13,7 @@ Class Selector
 - Used to allow different occurance of the same tag to use different
 style specification.
 - <element class=""></element>
+
+Generic Selector
+- If you want to apply more than one kind of a tag.
+- A generic class must be named and name must be given with a period at beggining
