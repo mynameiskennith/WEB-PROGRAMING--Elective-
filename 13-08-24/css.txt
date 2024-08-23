@@ -54,3 +54,12 @@ CSS Properties
 - color - rgb,hexa value, 0-256 rgb value
 - text-transform => upper,lowercase,capitalize,none
 - text-decoration => none,underline,line-through,overline
+
+font-variant : small-caps
+Text-spacing : letter spacing, word spacing, line-height
+font: 24pt bold 'Times' Palatino
+## White spaced property values must be entered using single quotes.
+
+list-style => all list styles
+list-image => sets the image as the bulletin
+list-type => decides the style of the bullettin
