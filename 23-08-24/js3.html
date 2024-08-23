@@ -7,8 +7,15 @@
 </head>
 <body>
     <script>
-        var person = prompt("Please enter your value","--")
-        var txt = "Hello " + person + " Welcome"
+        var person = prompt("Please enter your value","")
+
+        if(person==null){
+            var txt = "You pressed cancel"
+        }else if(person=="" || person==" "){
+            var txt = "Please enter the name"
+        }else{
+            var txt = "Hello " + person + " Welcome"
+        }
         window.alert(txt)
     </script>
 </body>
