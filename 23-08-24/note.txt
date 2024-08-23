@@ -14,6 +14,10 @@ Primitive Datatypes
 - Designed as Wrapper Objects
 - var w = "hello"
     or var w = new String("hello")
-    
+- They are immutable
+- null or Null
+- undefined - explicitely declared but no value
+
 
 Non Primitive
+- are mutable
