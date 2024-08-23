@@ -3,3 +3,17 @@ Javascript
 - glue language
 - client side scripting language
 - supported by all browsers.
+
+- 25 reserved words
+- <!--
+    --
+    //-->
+
+Primitive Datatypes
+- Number,String,Boolean,Undefined,Null
+- Designed as Wrapper Objects
+- var w = "hello"
+    or var w = new String("hello")
+    
+
+Non Primitive
