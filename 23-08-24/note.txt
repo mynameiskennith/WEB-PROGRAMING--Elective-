@@ -1,0 +1,5 @@
+Javascript
+- script is a supporting code.
+- glue language
+- client side scripting language
+- supported by all browsers.
