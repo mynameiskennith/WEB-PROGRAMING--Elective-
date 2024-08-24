@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var name = prompt("Enter your name","")
+        var h = new Date();
+        var hr = h.getHours()
+        alert(hr);
+        if(hr<12){
+            greet = 'Gud Mrng'
+        }else if(hr>=17 && hr<=24){
+            greet = "Gud Afternoon"
+        }else{
+            greet = 'Evening'
+        }
+        documenjt.writeln(greet+" "+name+"Welcome to Js")
+    </script>
+</body>
+</html>
