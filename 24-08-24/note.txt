@@ -1,0 +1,2 @@
+getDate - returns the date
+getMonth, getDay, getTime, 
