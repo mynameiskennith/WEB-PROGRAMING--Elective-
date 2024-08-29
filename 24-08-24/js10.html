@@ -7,7 +7,11 @@
 </head>
 <body>
     <script>
-        
+        document.writeln("<table border=1><tr><th>N</th><th>10*N</th><th>100*N</th><th>1000*N</th></tr>");
+        for(var i=1;i<7;i++){
+            document.writeln("<tr><td>"+i+"</td><td align='center'>"+10*i+"</td><td align='center'>"+100*i+"</td><td align='center'>"+1000*i+"</td></tr>");
+        }
     </script>
+    
 </body>
 </html>
