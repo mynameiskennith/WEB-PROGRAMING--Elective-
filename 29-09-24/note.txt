@@ -4,3 +4,6 @@ Functions
     body of function
 
 - only pass by value is available
+
+- Math.random() - generate floating point values
+                - 0 to 1
