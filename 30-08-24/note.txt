@@ -25,4 +25,8 @@ values while initialization
 - delete arr[0] - to delete a element from a specific position
                 - it leaves the position a hole
 
-- arr.splice(indexOfWheretoAdd,howManyElementstoRemove,items...)
+- arr.splice(indexOfWheretoAdd,howManyElementstoRemove,item1,item2,item3)
+
+- arr1.concat(arr2) - to merge Arrays
+                    - can take any number of arguments
+                    - 
