@@ -30,3 +30,4 @@ values while initialization
 - arr1.concat(arr2) - to merge Arrays
                     - can take any number of arguments
                     - 
+- slice() - creates a sub array
