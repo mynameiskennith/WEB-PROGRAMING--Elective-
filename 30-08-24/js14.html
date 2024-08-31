@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        function printme(){
+            num = document.getElementById("num").value
+            Num = parseInt(num)
+            if(isNaN(num)){
+                alert("The value entered is not a number")
+            }else{
+                alert("The value entered is a number")
+            }
+        }
+    </script>
 </head>
 <body>
-    
+    <input type="text" id="num">
+    <input type="button" onclick="printme()" value="click me">
 </body>
 </html>
