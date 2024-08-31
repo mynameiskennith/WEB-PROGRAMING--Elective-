@@ -17,3 +17,8 @@ values while initialization
 - var n = [10, 20, , 30] - 3rd element is undefined
 
 - array_name.length - to return the length of the array
+- array_name.push(item)
+
+- adding elements at higher indexes create undefined values
+- shift() - to pop from beginning
+- unshift() - to add at the begginning
