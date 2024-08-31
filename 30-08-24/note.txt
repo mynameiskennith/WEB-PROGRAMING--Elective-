@@ -1,0 +1,7 @@
+Global Function
+- parseInt()-string to parseInt
+- isNaN() - is not a number
+- isFinite() - whether the value is a finite number
+- decodeURI() and encodeURI() - URI COmponents
+- eval() - evaluate a string as JS
+- alert(), prompt(), confirm() -  
