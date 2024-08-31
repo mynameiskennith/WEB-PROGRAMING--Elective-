@@ -22,3 +22,7 @@ values while initialization
 - adding elements at higher indexes create undefined values
 - shift() - to pop from beginning
 - unshift() - to add at the begginning
+- delete arr[0] - to delete a element from a specific position
+                - it leaves the position a hole
+
+- arr.splice(indexOfWheretoAdd,howManyElementstoRemove,items...)
