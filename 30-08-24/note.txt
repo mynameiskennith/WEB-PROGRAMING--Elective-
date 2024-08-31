@@ -5,3 +5,15 @@ Global Function
 - decodeURI() and encodeURI() - URI COmponents
 - eval() - evaluate a string as JS
 - alert(), prompt(), confirm() -  
+
+Arrays
+- dynamic entities in JS.
+- We can create array in JS by two methods. By using
+Array Literal and Built in COnstruuctor.
+- var s = [item1,item2]
+    var s = new Array(item1,item2)
+- size of the array is determined by the number of
+values while initialization
+- var n = [10, 20, , 30] - 3rd element is undefined
+
+- array_name.length - to return the length of the array
