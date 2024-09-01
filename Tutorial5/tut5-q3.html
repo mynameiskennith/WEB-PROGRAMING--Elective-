@@ -8,16 +8,23 @@
     <script>
         var arr = []
         for(var i=0;i<3;i++){
-            nam = prompt('Enter the name of employee'+(i+1)+' : ')
-            hr = parseInt(prompt('Enter the worked hour of employee'+(i+1)+' : '))
-            rate = parseFloat(prompt('Enter the rate of employee'+(i+1)+' : '))
+            nam = prompt('Enter the name of Employee'+(i+1)+' : ')
+            hr = parseInt(prompt('Enter the worked hour of Employee'+(i+1)+' : '))
+            rate = parseFloat(prompt('Enter the rate of Employee'+(i+1)+' : '))
 
-            xtra = Math.abs(hr-40)
-            main = hr-xtra
-            if(xtra==0)
+            if(isNaN(hr)==true||isNaN(rate)==true){
+                alert("Please enter numerical values for Hour and rate!!")
+                i--
+                continue
+            }
+
+            if(hr<=40)
                 gross = hr*rate
-            else
+            else{
+                var regularPay = 40 * rate;
+                var overtimePay = (hr - 40) * rate * 1.5;
                 gross = hr*rate + rate*1.5*xtra
+            }
             arr.push(gross)
         }
         alert('Gross Pay of Employee1 : '+arr[0]+'\nGross Pay of Employee2 : '+arr[1]+'\nGross Pay of Employee3 : '+arr[2])
