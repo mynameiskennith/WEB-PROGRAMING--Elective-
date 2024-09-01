@@ -7,13 +7,17 @@
 
     <script>
         var arr = []
-        n = parseInt(prompt('Enter the number of employess',''))
-        for(var i=0;i<n;i++){
-            name = prompt('Enter the name of employee'+i+' : ')
-            hr = prompt('Enter the name of employee'+i+' : ')
+        for(var i=0;i<3;i++){
+            nam = prompt('Enter the name of employee'+i+' : ')
+            hr = parseInt(prompt('Enter the worked hour of employee'+i+' : '))
+            rate = parseFloat(prompt('Enter the rate of employee'+i+' : '))
+
+            xtra = 40-hr
+            main = hr-xtra
+            gross = hr*rate + rate*1.5*xtra
+            arr.push(gross)
         }
-        arr.push(...arr)
-        alert(arr)
+        alert('Gross Pay of Employee1 : '+arr[0]+'\nGross Pay of Employee2 : '+arr[1]+'\nGross Pay of Employee3 : '+arr[2]+)
     </script>
 </head>
 <body>
