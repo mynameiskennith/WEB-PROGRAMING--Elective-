@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUT5-Q2</title>
+
+    <script>
+        function pallindrome(){
+            n = prompt("Enter a five digit number : ")
+
+            if(n.length!=5){
+                alert("The entered number does not contain five digits.")
+                pallindrome()
+            }
+
+            len = n.length
+            for(var i=0,j=len-1;i<len/2 && j>len/2;i++,j--){
+                if(n[i]!=n[j]){
+                    alert("The number is not pallindrome.")
+                    return
+                }
+            }
+            alert("The number is pallindrome.")
+        }
+        pallindrome()
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
