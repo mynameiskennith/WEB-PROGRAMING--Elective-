@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUT6-Q2</title>
+
+    <script>
+        f = true
+        function press(){
+            if(f){
+                document.getElementById("Welcome").innerText = 'Hello from Javascript' 
+                f=false
+
+            }else{
+                document.getElementById("Welcome").innerText = 'Welcome'
+                f = true
+            }
+        }
+    </script>
+</head>
+<body>
+    <p id="Welcome">Welcome</p>
+    <input type="button" value="Click" onclick="press()">
+</body>
+</html>
