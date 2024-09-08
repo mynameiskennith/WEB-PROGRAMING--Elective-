@@ -19,7 +19,11 @@
 </head>
 <body>
     <center>
-        <table>
+
+        <table cellpadding="8">
+            <caption>
+                <h1>LOGIN PAGE</h1>
+            </caption>
             <tr>
                 <th>Username</th>
                 <th><input id="user" type="text"/></th>
@@ -29,7 +33,12 @@
                 <th><input id="pass" type="password"></th>
             </tr>
             <tr>
-                <th><input type="submit" onclick="validate()"></th>
+                <th colspan="2">
+                    <a href="reg.html">Sign Up?</a>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2"><input type="submit" onclick="validate()"></th>
             </tr>
         </table>
     </center>

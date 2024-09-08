@@ -6,32 +6,79 @@
     <title>Document</title>
 
     <script>
+        function confpass(conf,pass){
+            return conf==pass? true:false
+        }
         function validate(){
+            fname = document.getElementById("fname").value
+            phone = document.getElementById("phone").value
+            email = document.getElementById("mail").value
+            conf = document.getElementById("conf").value
             user = document.getElementById("user").value
             pass = document.getElementById("pass").value
 
-            if(user==null || user=='' || pass.length<6)
-            alert('Username should not be blank and password must not be less than 6 charecters')
-        else
-        alert("Username and password validated")
+            if(fname==''||phone==''||email==''||conf==''||user==''||pass=='')
+                alert('Please enter all fields')
+            else if(!confpass(conf,pass))
+                alert('The password entered is not correct!!!')
+            else{
+                alert("Registration Complete")
+                document.getElementById("fname").value=''
+                document.getElementById("phone").value=''
+                document.getElementById("mail").value=''
+                document.getElementById("conf").value=''
+                document.getElementById("user").value=''
+                document.getElementById("pass").value=''
+            }
         }
     </script>
 </head>
 <body>
+    <!-- 
+    name
+    phone
+    email
+    username
+    password
+    confirm password
+    -->
     <center>
-        <table>
-            <tr>
-                <th>Username</th>
-                <th><input id="user" type="text"/></th>
-            </tr>
-            <tr>
-                <th>Password</th>
-                <th><input id="pass" type="password"></th>
-            </tr>
-            <tr>
-                <th><input type="submit" onclick="validate()"></th>
-            </tr>
-        </table>
+        
+            <table cellpadding="8">
+                <caption>
+                    <h1>REGISTRATION FORM</h1>
+                </caption>
+                <tr>
+                    <th align="left">Name</th>
+                    <th><input type="text" id="fname" required></th>
+                </tr>
+                <tr>
+                    <th align="left">Phone Number</th>\
+                    <th><input type="tel" id="phone"></th>
+                </tr>
+                <tr>
+                    <th align="left">Email</th>
+                    <th><input type="email" id="mail"></th>
+                </tr>
+                <tr>
+                    <th align="left">Username</th>
+                    <th><input id="user" type="text" required/></th>
+                </tr>
+                <tr>
+                    <th align="left">Password</th>
+                    <th><input id="pass" type="password" required></th>
+                </tr>
+                <tr>
+                    <th align="left">Confirm Password</th>
+                    <th><input type="password" id="conf" required></th>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">Already have an account? <a href="">Login</a></td>
+                </tr>
+                <tr>
+                    <th colspan="2"><input type="submit" onclick="validate()"></th>
+                </tr>
+            </table>
     </center>
 </body>
 </html>
