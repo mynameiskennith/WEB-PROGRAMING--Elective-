@@ -5,7 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body onload="test()">
-    
+<body>
+    <form action="" name="f1">
+        Enter your name:
+        <input id="fname" type="text">
+        <input type="submit" onclick="window.alert('Hello '+ document.f1.fname.value)">
+    </form>
+<br><br>
+    <form action="" name="f2">
+        Enter your phone:
+        <input id="fnum" type="tel">
+        <input type="submit" onclick="validNum()">
+    </form>
+
+    <script>
+        function validNum(){
+            content = document.f2.fnum.value
+
+            if(content.length>10 && !isNaN(content)){
+
+                window.alert('Is a valid number')
+            }else{
+                window.alert('Not valid')
+            }
+        }
+    </script>
 </body>
 </html>
