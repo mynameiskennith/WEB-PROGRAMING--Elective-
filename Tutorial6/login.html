@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function validate(){
+            user = document.getElementById("user").value
+            pass = document.getElementById("pass").value
+
+            if(user==null || user=='' || pass.length<6)
+            alert('Username should not be blank and password must not be less than 6 charecters')
+        else
+        alert("Username and password validated")
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <table>
+            <tr>
+                <th>Username</th>
+                <th><input id="user" type="text"/></th>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <th><input id="pass" type="password"></th>
+            </tr>
+            <tr>
+                <th><input type="submit" onclick="validate()"></th>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
