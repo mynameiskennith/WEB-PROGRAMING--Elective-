@@ -12,15 +12,18 @@
         <p id="p1">This is a paragraph</p>
         <p id="p2">This is another paragraph</p>
     </div>
+    <button onclick="replace()">Replace</button>
 
     <script>
-        const para = document.createElement("p")
-        const node = document.createTextNode("This is a new PARA")
-        para.appendChild(node)
-        
-        const element = document.getElementById("div1")
-        const child = document.getElementById("p1")
-        element.insertBefore(para,child)
+        function replace(){
+            const para = document.createElement("p")
+            const node = document.createTextNode("This is a new PARA")
+            para.appendChild(node)
+            
+            const element = document.getElementById("div1")
+            const child = document.getElementById("p1")
+            element.replaceChild(para,child)
+        }
         // element.appendChild(para)
     </script>
 </body>
