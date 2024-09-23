@@ -4,12 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        @media all{
+            body{
+                background-color: steelblue;
+            }
+
+            h1{
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                color: lightgreen;
+            }
+
+            p{
+                font-size: 12pt;
+                color: white;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        }
+
+        @media print{
+            body{
+                background-color: brown;
+            }
+
+            h1{
+                color: red;
+            }
+
+            p{
+
+            }
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        .topnav{
+            overflow: hidden;
+            background-color: aqua;
+        }
+
+        .topnav a:hover{
+            background-color: grey;
+            color: black;
+        }
+
+        @media screen and (max-width: 600px){
+            .topnav a{
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
+    <nav class="topnav">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+    </nav>
     <h1>CSS MEDIA TYPES EXAMPLES</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquam dignissimos voluptates nostrum! Dicta aspernatur sequi expedita doloremque! Nobis laboriosam nihil autem inventore beatae adipisci quam sed dolor nam nesciunt.
-    Iusto, iure. Voluptatibus dicta blanditiis voluptas nostrum ratione consequatur, ab sapiente reprehenderit dolorem. Accusantium id tenetur voluptatibus? Consequuntur ipsam repellat, corrupti quisquam laboriosam fuga pariatur nihil sapiente ducimus facilis ipsum!
-    Harum consequuntur ipsum nam nulla quae ullam voluptatem a illum, id ipsa laboriosam, optio pariatur quas aperiam veniam dolores et cum in quidem magni numquam expedita recusandae? Temporibus, doloremque unde.
+    Iusto, iure. Voluptatibus dicta blanditiis voluptas nostrum ratione consequatur, ab sapiente reprehenderit dolorem. 
+    <br>
+    Accusantium id tenetur voluptatibus? Consequuntur ipsam repellat, corrupti quisquam laboriosam fuga pariatur nihil sapiente ducimus facilis ipsum!
+    Harum consequuntur 
+    <br>
+    ipsum nam nulla quae ullam voluptatem a illum, id ipsa laboriosam, optio pariatur quas aperiam veniam dolores et cum in quidem magni numquam expedita recusandae? Temporibus, doloremque unde.
     Quia ratione aliquam velit assumenda voluptatibus quas, consectetur sunt voluptates quisquam? At dolorem nulla pariatur quaerat velit repellendus nemo aperiam nisi porro doloremque asperiores quo neque iure repudiandae, perspiciatis vitae.</p>
 </body>
 </html>
