@@ -1,4 +1,4 @@
 Tutorial 8
-1. 
-2. 
-3. 
+1. https://github.com/mynameiskennith/WEB-PROGRAMING--Elective-/blob/main/Tutorial8/tut-8-q1.php
+2. https://github.com/mynameiskennith/WEB-PROGRAMING--Elective-/blob/main/Tutorial8/tut-8-q2.php
+3. https://github.com/mynameiskennith/WEB-PROGRAMING--Elective-/blob/main/Tutorial8/tut-8-q3.php
